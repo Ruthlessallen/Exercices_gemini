@@ -1,0 +1,8 @@
+frase = input("Introduce una frase: ")
+lista_palabras = frase.split()
+lista_palabras.reverse()
+inversion_cadena =  " ".join(lista_palabras)
+# TODO: Divide la frase en una lista de palabras usando .split()
+# TODO: Invierte la lista de palabras (pista: usa slicing [::-1] o el método .reverse())
+# TODO: Une la lista invertida de nuevo en una sola cadena, usando un espacio como separador (pista: usa el método .join())
+print(f"Frase invertida: {inversion_cadena}")
